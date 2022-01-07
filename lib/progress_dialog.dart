@@ -15,7 +15,7 @@ Alignment _progressWidgetAlignment = Alignment.centerLeft;
 TextDirection _direction = TextDirection.ltr;
 
 bool _isShowing = false;
-BuildContext _context, _dismissingContext;
+late BuildContext _context, _dismissingContext;
 ProgressDialogType? _progressDialogType;
 bool _barrierDismissible = true, _showLogs = false;
 
